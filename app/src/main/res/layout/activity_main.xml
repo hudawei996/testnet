@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/postsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帖子列表"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新帖子" />
+
+        <TextView
+            android:id="@+id/postDetailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:text="帖子详情"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/fetchDetailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取详情" />
+
+        <TextView
+            android:id="@+id/loadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=""
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</ScrollView>
