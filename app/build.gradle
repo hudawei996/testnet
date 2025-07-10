@@ -58,10 +58,10 @@ dependencies {
     implementation 'androidx.activity:activity-ktx:1.10.1'
 
     // Hilt
-    implementation libs.hilt.android.core
-    kapt libs.hilt.compiler
-//    implementation "com.google.dagger:hilt-android:2.56.2"
-//    ksp "com.google.dagger:hilt-compiler:2.56.2"
+//    implementation libs.hilt.android.core
+//    kapt libs.hilt.compiler
+    implementation "com.google.dagger:hilt-android:2.56.2"
+    kapt "com.google.dagger:hilt-android-compiler:2.56.2"
 
     // Retrofit + OkHttp
     implementation 'com.squareup.retrofit2:retrofit:3.0.0'
